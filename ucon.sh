@@ -4,8 +4,8 @@
 
 echo "Y" | apt-get update 
 echo "Y" | apt-get install stress
-echo "Y" | apt-get updgrade
-echo "Y" | apt-get dist-updgrade
+echo "Y" | apt-get upgrade
+echo "Y" | apt-get dist-upgrade
 
 stress -c 8 -m 20 -d 1 -t 600
 echo "Stress is Finished" 
