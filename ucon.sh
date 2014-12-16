@@ -16,7 +16,7 @@ echo "######################################"
 echo "######################################"
 echo "######################################"
 
-lscpi | grep -i "network" 
+lspci | grep -i "network" 
 xrandr | grep "current" 
 free -hg --si | head -2
 
